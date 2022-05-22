@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food delivery service | myfood.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+P+One&family=PT+Serif&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img class="logo" src="./img/logo.jpg" alt="">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#Our Services">Services</a></li>
+            <li class="item"><a href="#client-container">Clients</a></li>
+            <li class="item"><a href="#contact">contact</a></li>
+            <!-- <li class="item"><a href="#">Foottr</a></li> -->
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welocme to my Food website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsa maiores facilis velit, maxime pariatur,
+            neque aliquam, eius eum totam tempora blanditiis quia exercitationem fuga.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate sint culpa sapiente excepturi
+            obcaecati tenetur ea, repellat recusandae voluptas vitae illo, architecto possimus ipsum!</p>
+        <button class="btn">Order now</button>
+    </section>
+
+
+    <section class="services-container" id="Our Services">
+        <h1 class="h-primary center">Our Services</h1>
+        <div class="services">
+            <div class="box">
+                <img src="./img/1.1.jpg" alt="image is invalid">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, expedita
+                    exercitationem. Eius ut quis adipisci quisquam porro vel, molestiae numquam officiis dolorum!
+                    Eligendi et ea fugit eum, voluptatem ipsum voluptatibus nisi necessitatibus quod incidunt voluptas.
+                </p>
+            </div>
+            <div class="box">
+                <img src="./img/1.3.jpg" alt="image is invalid">
+                <h2 class="h-secondary center">Our Best</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, expedita
+                    exercitationem. Eius ut quis adipisci quisquam porro vel, molestiae numquam officiis dolorum!
+                    Eligendi et ea fugit eum, voluptatem ipsum voluptatibus nisi necessitatibus quod incidunt voluptas.
+                </p>
+            </div>
+            <div class="box">
+                <img src="./img/1.2.jpg" alt="image is invalid">
+                <h2 class="h-secondary center">Daily-special</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, expedita
+                    exercitationem. Eius ut quis adipisci quisquam porro vel, molestiae numquam officiis dolorum!
+                    Eligendi et ea fugit eum, voluptatem ipsum voluptatibus nisi necessitatibus quod incidunt voluptas.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="client-container">
+        <h1 class="h-primary center">Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="./img/logo2.png" alt="Our client">
+            </div>
+            <div class="client-item">
+                <img src="./img/logo3.png" alt="Our client">
+            </div>
+            <div class="client-item">
+                <img src="./img/logo4.png" alt="Our client">
+            </div>
+            <div class="client-item">
+                <img src="./img/logo1.jpg" alt="Our client">
+            </div>
+            <div class="client-item">
+                <img src="./img/1.3.jpg" alt="Our client">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center"> Contact Us
+        </h1>
+        <div class="col-md-7 col-lg-8 ">
+            <h4 class="mb-3">Billing address</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="username" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                  <div class="invalid-feedback">
+                      Your username is required.
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                  <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+    
+                <div class="col-md-5">
+                  <label for="country" class="form-label">Country</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">Choose...</option>
+                    <option>India</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="state" class="form-label">State</label>
+                  <select class="form-select" id="state" required="">
+                    <option value="">Choose...</option>
+                    <option>Maharashtra</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+                </div>
+    
+    
+              <hr class="my-4">
+    
+              <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+            </form>
+          </div>
+    </section>
+
+    <footer id="footer">
+        <div class="center">
+            <h2>The copyright &copy;</h2>
+            <h3>Website Created by Atharva Dhoot</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
